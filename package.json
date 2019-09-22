@@ -1,36 +1,12 @@
 {
-  "name": "rn-spotify-sdk",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lufinkey/react-native-spotify.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lufinkey/react-native-spotify/issues"
-  },
-  "version": "1.2.10",
-  "description": "A react-native module for the Spotify SDK",
-  "author": "lufinkey",
-  "nativePackage": true,
-  "license": "Zlib",
-  "keywords": [
-    "react-native",
-    "spotify",
-    "music",
-    "playback",
-    "audio",
-    "stream",
-    "streaming",
-    "mobile"
-  ],
+  "name": "example-server",
+  "version": "1.0.0",
+  "description": "Example server that supports token swap and refresh",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "git submodule update --init --recursive"
-  },
-  "peerDependencies": {
-    "react-native": "^0.53.3"
+    "start": "node index.js"
   },
   "dependencies": {
-    "react-native-events": "^1.0.15"
+    "express": "^4.16.2"
   }
 }
